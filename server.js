@@ -13,7 +13,7 @@ const APIKEY = "123456";
 
 // Enable CORS for all origins (adjust as needed)
 app.use(cors({
-  origin: 'http://dev4.cyberbunny.online:3000'  // Replace with your actual frontend domain
+  origin: 'https://dev4.cyberbunny.online:3000'  // Replace with your actual frontend domain
 }));
 
 
