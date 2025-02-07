@@ -50,7 +50,7 @@ app.post('/message', (req, res) => {
 });
 
 // Start HTTPS or HTTP server
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'productiondev') {
   const options = {
     key: fs.readFileSync(path.join(__dirname, 'privkey.pem')),
     cert: fs.readFileSync(path.join(__dirname, 'fullchain.pem'))
